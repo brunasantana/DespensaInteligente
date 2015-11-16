@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.alunos.despensainteligente" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".CriarListaActivity"
+            android:label="@string/title_activity_criar_lista" >
+        </activity>
+        <activity
+            android:name=".VerListaActivity"
+            android:label="@string/title_activity_ver_lista" >
+        </activity>
+        <activity
+            android:name=".ListaProdutosActivity"
+            android:label="@string/title_activity_lista_produtos" >
+        </activity>
+        <activity
+            android:name=".CadastrarProdutoActivity"
+            android:label="@string/title_activity_cadastrar_produto" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">DespensaInteligente</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_criar_lista">CriarListaActivity</string>
+    <string name="title_activity_ver_lista">VerListaActivity</string>
+    <string name="title_activity_lista_produtos">ListaProdutosActivity</string>
+    <string name="title_activity_cadastrar_produto">CadastrarProdutoActivity</string>
+
+    <string name="tituloMain"> Despensa Inteligente </string>
+    <string name="buttonCriarLista"> CRIAR LISTA </string>
+    <string name="buttonVerLista"> VER LISTAS </string>
+    <string name="tituloCriarLista"> Criar Lista </string>
+    <string name="tituloCadastroProdutos"> Cadastro Produtos </string>
+    <string name="tituloTodasListas"> Todas as Listas </string>
+    <string name="tituloListagemProdutos"> Listagem Produtos </string>
+    <string name="nomeLista"> Nome da Lista:</string>
+    <string name="nomeProduto"> Nome Produto:</string>
+    <string name="qtd"> Quantidade:</string>
+    <string name="itensCadastrados"> Itens já cadastrados: </string>
+    <string name="buttonAdd"> ADICIONAR ITEM </string>
+    <string name="buttonAddUltima"> ADICIONAR ITENS À ÚLTIMA LISTA </string>
+    <string name="buttonCancelar"> CANCELAR </string>
+    <string name="buttonSalvar"> SALVAR </string>
+</resources>

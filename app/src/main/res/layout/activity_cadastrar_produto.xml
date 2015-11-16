@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.alunos.despensainteligente.CadastrarProdutoActivity">
+
+    <TextView android:text="@string/tituloCadastroProdutos" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/titulo"
+        android:textSize="40dp"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nomeProduto"
+        android:id="@+id/nomeProduto"
+        android:layout_marginTop="67dp"
+        android:textColor="#ff000000"
+        android:textSize="20dp"
+        android:layout_below="@+id/titulo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputProduto"
+        android:layout_alignBottom="@+id/nomeProduto"
+        android:layout_alignRight="@+id/titulo"
+        android:layout_alignEnd="@+id/titulo"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/qtd"
+        android:id="@+id/qtd"
+        android:textSize="20dp"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/nomeProduto"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="25dp" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/inputQtd"
+        android:textColor="#ff000000"
+        android:layout_alignBottom="@+id/qtd"
+        android:layout_alignRight="@+id/inputProduto"
+        android:layout_alignEnd="@+id/inputProduto" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonSalvar"
+        android:id="@+id/buttonSalvar"
+        android:layout_below="@+id/inputQtd"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="33dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonCancelar"
+        android:id="@+id/buttonCancelar"
+        android:layout_alignTop="@+id/buttonSalvar"
+        android:layout_toLeftOf="@+id/buttonSalvar"
+        android:layout_toStartOf="@+id/buttonSalvar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itensCadastrados"
+        android:id="@+id/itensCadastrados"
+        android:textSize="20dp"
+        android:textColor="#ff000000"
+        android:layout_marginTop="48dp"
+        android:layout_below="@+id/buttonCancelar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
